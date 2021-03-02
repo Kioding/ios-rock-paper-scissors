@@ -1,8 +1,4 @@
-//
-//  RockPaperScissors - main.swift
-//  Created by yagom. 
-//  Copyright © yagom academy. All rights reserved.
-// 
+
 
 var computerRandomNumbers: [Int] = [1,2,3]
 var computerRandomNumber: Int = 0
@@ -17,7 +13,6 @@ class RockPaperScissors {
         getInputByUser()
         checkResultAndPrintResultOfGame()
     }
-    
     
     /// 컴퓨터 랜덤 가위바위보
     func makeRandomResult() {
