@@ -18,6 +18,7 @@ class RockPaperScissors {
         checkResultAndPrintResultOfGame()
     }
     
+    
     /// 컴퓨터 랜덤 가위바위보
     func makeRandomResult() {
         computerRandomNumber = Int.random(in: 1...3)
